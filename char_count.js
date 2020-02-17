@@ -1,8 +1,8 @@
 function charCount(str) {
   if (str === undefined || str === '') {
-    console.log(`Please enter something.`)
+    return `Please enter something.`
   } else {
-    console.log(`${str} has ${str.length} characters.`)
+    return `${str} has ${str.length} characters.`
   }
 }
 

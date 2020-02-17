@@ -6,6 +6,6 @@ const readline = require('readline').createInterface({
 })
 
 readline.question('What is the input string? ', (str) => {
-  charCount(str)
+  console.log(charCount(str))
   readline.close()
 })
