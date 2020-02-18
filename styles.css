@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  place-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  margin-top: 10vh;
+}

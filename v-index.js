@@ -1,7 +1,8 @@
 var app = new Vue({
   el: '#app',
+  vuetify: new Vuetify(),
   data: {
-    message: "Enter a string and we'll count the characters!",
+    message: "Character Counter",
     input: null,
   },
   computed: {
